@@ -27,9 +27,7 @@ int main(void) {
 
 
 	respuesta= ordenarArrayLudmila(edades,ALUMNOS);
-		if(respuesta>0){
-			printf("\n\n Iteracion:%d \n\n ", respuesta);
-		}
+	printArrays(edades, ALUMNOS);
 
 	return EXIT_SUCCESS;
 }
